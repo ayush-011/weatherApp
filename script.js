@@ -28,7 +28,7 @@ searchCity.addEventListener("click", () => {
   return;
 }
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=194b26bd7af7053cd554bc0d3ceff48f`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=API_KEY`;
 
   setTimeout(() => {
     fetch(url)
